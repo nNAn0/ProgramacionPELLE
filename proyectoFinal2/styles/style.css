@@ -1,0 +1,129 @@
+.buttonBar{
+    text-decoration: none;  
+    margin: 0; 
+    height: 50px;
+    width: 15%;
+}
+.header-btn{
+    height: 130px;
+    width: 90px;
+    background-color: transparent;
+    border-color: transparent;
+    justify-content: center;
+    display: flex;
+    flex: 3;
+    text-decoration: none;
+    transition-property: flex, background;
+    transition-duration: 200ms;
+    /* la distancia entre elementos */
+    margin: 0; 
+    border-radius: 3%;
+}
+
+.btn{
+    color: aliceblue;
+}
+.header-btn:hover{
+    flex: 4;
+    border-radius: 33%;
+    background: blueviolet;
+    border-end-end-radius: 99%;
+    border-top-left-radius: 55%;
+}
+/* header{ */
+    /* si quiero que un elemento ocupe todo el ancho(espacio) que tenga disponible */
+    /* display: block; */
+    /* background-color: blueviolet; */
+    /* max-height: 50px; */
+/* } */
+/* .sectionButton{
+
+} */
+
+/*--------HEADER--------------------------------------------------------------------------------------------------------------*/
+
+.header-pagina {
+    padding: 0px;
+    
+    min-width: 780px;
+    height: fit-content;
+    
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icono-header {
+    display: flex;
+    flex-grow: 10;
+
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+}
+#normal6{
+    margin: 58px 18px 0px 27px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: 'Caveat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+    
+}
+#normal6:hover{
+    color: black;
+    background-color: aliceblue;
+    transition-duration: 500ms;
+    border-radius: 15px;
+}
+#div-botones-header {
+    margin-right: auto;
+    
+    flex-grow: 4;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_button {
+    height: 70px;
+
+    background: transparent;
+
+    border: none;
+
+    font-size: 15px;
+    color: rgb(86, 1, 1);
+}
+.links-btn {
+    display: flex;
+    justify-content: center;
+
+    background-color: transparent;
+
+    text-decoration: none;
+
+    flex: 3;
+
+    transition-property: flex, background;
+    transition-duration: 200ms;
+    
+}
+#info{
+    background-color: #9cafa85c;
+    width: auto;
+    height: 219px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    padding: 3rem;
+}
+.bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+  }
+img#jrdn{
+    height: 3cm;
+}

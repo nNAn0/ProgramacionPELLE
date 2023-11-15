@@ -1,0 +1,2 @@
+ <a class="header-btn" href="evaluacion.php"><button class="btn">Hacer un INNFORME</button></a>
+ <a class="header-btn" href="alumno.php"><button class="btn">Ver listado de todos los alumnos</button></a>
